@@ -943,7 +943,3231 @@ footer {
 
     <a href="#home" class="brand">
       <div class="logo-circle">
+        <img src="<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEXNODE | Website Development</title>
+<meta name="description" content="APEXNODE creates professional websites for businesses, brands and entrepreneurs.">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --red: #ff1744;
+  --dark: #07090d;
+  --card: #11141b;
+  --white: #ffffff;
+  --muted: #a5a8b0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--dark);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  padding: 90px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.section-title span {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.section-title h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  margin-top: 10px;
+}
+
+.section-title p {
+  color: var(--muted);
+  margin-top: 12px;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(7,9,13,.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #20232b;
+}
+
+.navbar {
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.logo-circle img {
+  width: 160%;
+  height: 160%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.brand-name {
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand-name span {
+  color: var(--red);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  font-size: 13px;
+  color: #ddd;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: var(--red);
+}
+
+.nav-contact {
+  background: var(--red);
+  padding: 11px 19px;
+  border-radius: 7px;
+  color: white !important;
+}
+
+.menu-btn {
+  display: none;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background:
+    radial-gradient(circle at 85% 40%, rgba(255,23,68,.16), transparent 35%),
+    linear-gradient(120deg,#07090d,#10131b);
+}
+
+.hero-content {
+  max-width: 750px;
+  padding: 90px 0;
+}
+
+.hero-label {
+  display: inline-block;
+  color: var(--red);
+  border: 1px solid rgba(255,23,68,.4);
+  padding: 9px 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(38px,6vw,72px);
+  line-height: 1.13;
+  font-weight: 800;
+}
+
+.hero h1 span {
+  color: var(--red);
+}
+
+.hero p {
+  color: #b7bac2;
+  line-height: 1.9;
+  max-width: 600px;
+  margin: 24px 0 30px;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 7px;
+  background: var(--red);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid var(--red);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--red);
+}
+
+.btn-outline {
+  background: transparent;
+  margin-left: 12px;
+}
+
+.btn-outline:hover {
+  background: var(--red);
+  color: white;
+}
+
+/* ABOUT */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 0 70px rgba(255,23,68,.13);
+}
+
+.about-logo img {
+  width: 150%;
+  height: 150%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content h2 span {
+  color: var(--red);
+}
+
+.about-content p {
+  color: var(--muted);
+  line-height: 1.9;
+  margin-bottom: 15px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.about-point {
+  background: var(--card);
+  border: 1px solid #242832;
+  padding: 15px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+.about-point span {
+  color: var(--red);
+  margin-right: 8px;
+}
+
+/* SERVICES */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: var(--card);
+  border: 1px solid #252a34;
+  border-radius: 13px;
+  padding: 30px;
+  transition: .3s;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  border-color: var(--red);
+}
+
+.service-icon {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* PROJECTS */
+
+.projects-section {
+  background: #0b0d12;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.project-card {
+  background: var(--card);
+  border: 1px solid #252a34;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red);
+}
+
+.project-image {
+  height: 205px;
+  overflow: hidden;
+  background: #191c24;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.06);
+}
+
+.project-info {
+  padding: 22px;
+}
+
+.project-info small {
+  color: var(--red);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.project-info h3 {
+  font-size: 19px;
+  margin: 8px 0;
+}
+
+.project-info p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+  min-height: 42px;
+  margin-bottom: 18px;
+}
+
+.demo-btn {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.demo-btn:hover {
+  background: var(--red);
+}
+
+/* PROCESS */
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.process-card {
+  padding: 25px;
+  border: 1px solid #252a34;
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.process-number {
+  font-size: 35px;
+  color: var(--red);
+  font-weight: 800;
+}
+
+.process-card h3 {
+  margin: 10px 0;
+}
+
+.process-card p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: #0b0d12;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contact-details h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  background: var(--card);
+  border: 1px solid #292e38;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 14px;
+  overflow-wrap: anywhere;
+}
+
+.contact-item small {
+  color: var(--red);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact-item a {
+  font-size: 14px;
+}
+
+.contact-form {
+  background: var(--card);
+  padding: 32px;
+  border: 1px solid #292e38;
+  border-radius: 14px;
+}
+
+.contact-form h3 {
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.contact-form > p {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 22px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #08090d;
+  color: white;
+  border: 1px solid #333945;
+  border-radius: 7px;
+  font-size: 13px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: var(--red);
+}
+
+.contact-form select option {
+  background: #11141b;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  background: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: transparent;
+  color: var(--red);
+}
+
+/* FOOTER */
+
+footer {
+  background: #050609;
+  border-top: 1px solid #252a34;
+  padding: 35px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-content p {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.footer-content span {
+  color: var(--red);
+}
+
+/* DEMO MODAL */
+
+.demo-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: #07090d;
+  overflow-y: auto;
+}
+
+.demo-modal.active {
+  display: block;
+}
+
+.demo-topbar {
+  height: 65px;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #080a0f;
+  border-bottom: 1px solid #252a34;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.demo-topbar strong {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.close-demo {
+  background: var(--red);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.demo-site {
+  min-height: 100vh;
+  background: var(--demo-bg, #ffffff);
+  color: var(--demo-text, #222);
+}
+
+.demo-nav {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 7%;
+  background: var(--demo-card, #fff);
+  color: var(--demo-text, #222);
+  gap: 15px;
+}
+
+.demo-nav strong {
+  font-size: 19px;
+}
+
+.demo-nav-links {
+  display: flex;
+  gap: 22px;
+  font-size: 12px;
+}
+
+.demo-nav a:hover {
+  color: var(--demo-accent);
+}
+
+.demo-nav .demo-enquire {
+  padding: 10px 16px;
+  background: var(--demo-accent);
+  color: white;
+  border-radius: 5px;
+}
+
+.demo-hero {
+  min-height: 500px;
+  padding: 75px 8%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  isolation: isolate;
+}
+
+.demo-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,.88),
+    rgba(0,0,0,.60),
+    rgba(0,0,0,.20)
+  );
+}
+
+.demo-hero-content {
+  max-width: 650px;
+  position: relative;
+  z-index: 1;
+  color: #fff !important;
+}
+
+.demo-kicker {
+  color: #fff !important;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.demo-hero-content h1 {
+  color: #fff !important;
+  font-size: clamp(35px,5vw,65px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.demo-hero-content p {
+  color: #fff !important;
+  line-height: 1.9;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.demo-action {
+  border: none;
+  padding: 13px 22px;
+  border-radius: 5px;
+  color: white;
+  background: var(--demo-accent);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.demo-content-section {
+  padding: 65px 8%;
+  background: var(--demo-bg);
+  color: var(--demo-text);
+}
+
+.demo-section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.demo-section-title h2 {
+  font-size: 30px;
+}
+
+.demo-section-title p {
+  margin-top: 8px;
+  opacity: .7;
+  font-size: 13px;
+}
+
+.demo-services {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.demo-service-card {
+  background: var(--demo-card);
+  color: var(--demo-text);
+  padding: 25px;
+  border-radius: 9px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.05);
+}
+
+.demo-service-card h3 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.demo-service-card p {
+  font-size: 12px;
+  line-height: 1.8;
+  opacity: .75;
+}
+
+.demo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
+
+.demo-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.demo-cta {
+  padding: 55px 8%;
+  text-align: center;
+  background: var(--demo-accent);
+  color: white;
+}
+
+.demo-cta h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.demo-cta p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.demo-cta button {
+  padding: 13px 22px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: white;
+  color: var(--demo-accent);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.demo-footer {
+  padding: 25px;
+  text-align: center;
+  background: var(--demo-card);
+  color: var(--demo-text);
+  font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+  .nav-links {
+    gap: 14px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(max-width:650px) {
+  section {
+    padding: 65px 0;
+  }
+
+  .navbar {
+    height: 72px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    background: #0b0d12;
+    border-bottom: 1px solid #292e38;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 70px 0;
+  }
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-logo {
+    width: 190px;
+    height: 190px;
+  }
+
+  .about-content h2 {
+    font-size: 29px;
+  }
+
+  .services-grid,
+  .projects-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-points {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 22px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .demo-nav {
+    flex-wrap: wrap;
+  }
+
+  .demo-nav-links {
+    display: none;
+  }
+
+  .demo-hero {
+    min-height: 430px;
+    padding: 55px 7%;
+  }
+
+  .demo-services,
+  .demo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-gallery img {
+    height: 240px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container navbar">
+
+    <a href="#home" class="brand">
+      <div class="logo-circle">
         <img src="file:///D:/logo.png.jpeg" alt="APEXNODE Logo">
+      </div>
+      <div class="brand-name">APEX<span>NODE</span></div>
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#services" onclick="closeMenu()">Services</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#process" onclick="closeMenu()">Process</a>
+      <a href="#contact" class="nav-contact" onclick="closeMenu()">Contact Us</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="hero-label">WE BUILD DIGITAL EXPERIENCES</div>
+
+      <h1>
+        We Build Websites That
+        <span>Grow Your Business.</span>
+      </h1>
+
+      <p>
+        APEXNODE creates modern, professional and responsive websites
+        that help businesses build their online presence and connect
+        with more customers.
+      </p>
+
+      <a href="#projects" class="btn">Explore Our Work</a>
+      <a href="#contact" class="btn btn-outline">Get a Website</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container about-grid">
+
+    <div>
+      <div class="about-logo">
+        <img src="<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEXNODE | Website Development</title>
+<meta name="description" content="APEXNODE creates professional websites for businesses, brands and entrepreneurs.">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --red: #ff1744;
+  --dark: #07090d;
+  --card: #11141b;
+  --white: #ffffff;
+  --muted: #a5a8b0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--dark);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  padding: 90px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.section-title span {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.section-title h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  margin-top: 10px;
+}
+
+.section-title p {
+  color: var(--muted);
+  margin-top: 12px;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(7,9,13,.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #20232b;
+}
+
+.navbar {
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.logo-circle img {
+  width: 160%;
+  height: 160%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.brand-name {
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand-name span {
+  color: var(--red);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  font-size: 13px;
+  color: #ddd;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: var(--red);
+}
+
+.nav-contact {
+  background: var(--red);
+  padding: 11px 19px;
+  border-radius: 7px;
+  color: white !important;
+}
+
+.menu-btn {
+  display: none;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background:
+    radial-gradient(circle at 85% 40%, rgba(255,23,68,.16), transparent 35%),
+    linear-gradient(120deg,#07090d,#10131b);
+}
+
+.hero-content {
+  max-width: 750px;
+  padding: 90px 0;
+}
+
+.hero-label {
+  display: inline-block;
+  color: var(--red);
+  border: 1px solid rgba(255,23,68,.4);
+  padding: 9px 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(38px,6vw,72px);
+  line-height: 1.13;
+  font-weight: 800;
+}
+
+.hero h1 span {
+  color: var(--red);
+}
+
+.hero p {
+  color: #b7bac2;
+  line-height: 1.9;
+  max-width: 600px;
+  margin: 24px 0 30px;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 7px;
+  background: var(--red);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid var(--red);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--red);
+}
+
+.btn-outline {
+  background: transparent;
+  margin-left: 12px;
+}
+
+.btn-outline:hover {
+  background: var(--red);
+  color: white;
+}
+
+/* ABOUT */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 0 70px rgba(255,23,68,.13);
+}
+
+.about-logo img {
+  width: 150%;
+  height: 150%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content h2 span {
+  color: var(--red);
+}
+
+.about-content p {
+  color: var(--muted);
+  line-height: 1.9;
+  margin-bottom: 15px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.about-point {
+  background: var(--card);
+  border: 1px solid #242832;
+  padding: 15px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+.about-point span {
+  color: var(--red);
+  margin-right: 8px;
+}
+
+/* SERVICES */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: var(--card);
+  border: 1px solid #252a34;
+  border-radius: 13px;
+  padding: 30px;
+  transition: .3s;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  border-color: var(--red);
+}
+
+.service-icon {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* PROJECTS */
+
+.projects-section {
+  background: #0b0d12;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.project-card {
+  background: var(--card);
+  border: 1px solid #252a34;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red);
+}
+
+.project-image {
+  height: 205px;
+  overflow: hidden;
+  background: #191c24;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.06);
+}
+
+.project-info {
+  padding: 22px;
+}
+
+.project-info small {
+  color: var(--red);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.project-info h3 {
+  font-size: 19px;
+  margin: 8px 0;
+}
+
+.project-info p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+  min-height: 42px;
+  margin-bottom: 18px;
+}
+
+.demo-btn {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.demo-btn:hover {
+  background: var(--red);
+}
+
+/* PROCESS */
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.process-card {
+  padding: 25px;
+  border: 1px solid #252a34;
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.process-number {
+  font-size: 35px;
+  color: var(--red);
+  font-weight: 800;
+}
+
+.process-card h3 {
+  margin: 10px 0;
+}
+
+.process-card p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: #0b0d12;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contact-details h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  background: var(--card);
+  border: 1px solid #292e38;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 14px;
+  overflow-wrap: anywhere;
+}
+
+.contact-item small {
+  color: var(--red);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact-item a {
+  font-size: 14px;
+}
+
+.contact-form {
+  background: var(--card);
+  padding: 32px;
+  border: 1px solid #292e38;
+  border-radius: 14px;
+}
+
+.contact-form h3 {
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+.contact-form > p {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 22px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #08090d;
+  color: white;
+  border: 1px solid #333945;
+  border-radius: 7px;
+  font-size: 13px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: var(--red);
+}
+
+.contact-form select option {
+  background: #11141b;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  background: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: transparent;
+  color: var(--red);
+}
+
+/* FOOTER */
+
+footer {
+  background: #050609;
+  border-top: 1px solid #252a34;
+  padding: 35px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-content p {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.footer-content span {
+  color: var(--red);
+}
+
+/* DEMO MODAL */
+
+.demo-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: #07090d;
+  overflow-y: auto;
+}
+
+.demo-modal.active {
+  display: block;
+}
+
+.demo-topbar {
+  height: 65px;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #080a0f;
+  border-bottom: 1px solid #252a34;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.demo-topbar strong {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.close-demo {
+  background: var(--red);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.demo-site {
+  min-height: 100vh;
+  background: var(--demo-bg, #ffffff);
+  color: var(--demo-text, #222);
+}
+
+.demo-nav {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 7%;
+  background: var(--demo-card, #fff);
+  color: var(--demo-text, #222);
+  gap: 15px;
+}
+
+.demo-nav strong {
+  font-size: 19px;
+}
+
+.demo-nav-links {
+  display: flex;
+  gap: 22px;
+  font-size: 12px;
+}
+
+.demo-nav a:hover {
+  color: var(--demo-accent);
+}
+
+.demo-nav .demo-enquire {
+  padding: 10px 16px;
+  background: var(--demo-accent);
+  color: white;
+  border-radius: 5px;
+}
+
+.demo-hero {
+  min-height: 500px;
+  padding: 75px 8%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  isolation: isolate;
+}
+
+.demo-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,.88),
+    rgba(0,0,0,.60),
+    rgba(0,0,0,.20)
+  );
+}
+
+.demo-hero-content {
+  max-width: 650px;
+  position: relative;
+  z-index: 1;
+  color: #fff !important;
+}
+
+.demo-kicker {
+  color: #fff !important;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.demo-hero-content h1 {
+  color: #fff !important;
+  font-size: clamp(35px,5vw,65px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.demo-hero-content p {
+  color: #fff !important;
+  line-height: 1.9;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.demo-action {
+  border: none;
+  padding: 13px 22px;
+  border-radius: 5px;
+  color: white;
+  background: var(--demo-accent);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.demo-content-section {
+  padding: 65px 8%;
+  background: var(--demo-bg);
+  color: var(--demo-text);
+}
+
+.demo-section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.demo-section-title h2 {
+  font-size: 30px;
+}
+
+.demo-section-title p {
+  margin-top: 8px;
+  opacity: .7;
+  font-size: 13px;
+}
+
+.demo-services {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.demo-service-card {
+  background: var(--demo-card);
+  color: var(--demo-text);
+  padding: 25px;
+  border-radius: 9px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.05);
+}
+
+.demo-service-card h3 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.demo-service-card p {
+  font-size: 12px;
+  line-height: 1.8;
+  opacity: .75;
+}
+
+.demo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
+
+.demo-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.demo-cta {
+  padding: 55px 8%;
+  text-align: center;
+  background: var(--demo-accent);
+  color: white;
+}
+
+.demo-cta h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.demo-cta p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.demo-cta button {
+  padding: 13px 22px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: white;
+  color: var(--demo-accent);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.demo-footer {
+  padding: 25px;
+  text-align: center;
+  background: var(--demo-card);
+  color: var(--demo-text);
+  font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+  .nav-links {
+    gap: 14px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(max-width:650px) {
+  section {
+    padding: 65px 0;
+  }
+
+  .navbar {
+    height: 72px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    background: #0b0d12;
+    border-bottom: 1px solid #292e38;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 70px 0;
+  }
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-logo {
+    width: 190px;
+    height: 190px;
+  }
+
+  .about-content h2 {
+    font-size: 29px;
+  }
+
+  .services-grid,
+  .projects-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-points {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 22px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .demo-nav {
+    flex-wrap: wrap;
+  }
+
+  .demo-nav-links {
+    display: none;
+  }
+
+  .demo-hero {
+    min-height: 430px;
+    padding: 55px 7%;
+  }
+
+  .demo-services,
+  .demo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-gallery img {
+    height: 240px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container navbar">
+
+    <a href="#home" class="brand">
+      <div class="logo-circle">
+                <img src="/assets/apexnode-logo.jpeg" alt="APEXNODE">
+      </div>
+      <div class="brand-name">APEX<span>NODE</span></div>
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#services" onclick="closeMenu()">Services</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#process" onclick="closeMenu()">Process</a>
+      <a href="#contact" class="nav-contact" onclick="closeMenu()">Contact Us</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="hero-label">WE BUILD DIGITAL EXPERIENCES</div>
+
+      <h1>
+        We Build Websites That
+        <span>Grow Your Business.</span>
+      </h1>
+
+      <p>
+        APEXNODE creates modern, professional and responsive websites
+        that help businesses build their online presence and connect
+        with more customers.
+      </p>
+
+      <a href="#projects" class="btn">Explore Our Work</a>
+      <a href="#contact" class="btn btn-outline">Get a Website</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container about-grid">
+
+    <div>
+      <div class="about-logo">
+                <img src="/assets/apexnode-logo.jpeg" alt="APEXNODE">
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="section-title" style="text-align:left;margin-bottom:15px;">
+        <span>ABOUT APEXNODE</span>
+      </div>
+
+      <h2>Building Your <span>Digital Future.</span></h2>
+
+      <p>
+        APEXNODE is a website development brand focused on creating
+        attractive, modern and user-friendly websites for businesses
+        and individuals.
+      </p>
+
+      <p>
+        From business websites to online stores and personal portfolios,
+        we help turn your ideas into a professional online experience.
+      </p>
+
+      <div class="about-points">
+        <div class="about-point"><span>✦</span> Modern Designs</div>
+        <div class="about-point"><span>✦</span> Mobile Responsive</div>
+        <div class="about-point"><span>✦</span> User Friendly</div>
+        <div class="about-point"><span>✦</span> Business Focused</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:#0b0d12;">
+  <div class="container">
+
+    <div class="section-title">
+      <span>WHAT WE DO</span>
+      <h2>Our Services</h2>
+      <p>Digital solutions designed for your business.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <h3>Business Websites</h3>
+        <p>Professional websites to showcase your business, services and brand identity.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🛒</div>
+        <h3>E-commerce Websites</h3>
+        <p>Online store designs to display products and help customers enquire or shop.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">👤</div>
+        <h3>Portfolio Websites</h3>
+        <p>Personal portfolio websites to showcase your skills, work and achievements.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🍽️</div>
+        <h3>Restaurant Websites</h3>
+        <p>Beautiful restaurant websites with menus, food galleries and enquiry options.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Landing Pages</h3>
+        <p>Focused landing pages for products, promotions, services and campaigns.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Website Customization</h3>
+        <p>Improve existing websites with better layouts, features and visual design.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="container">
+
+    <div class="section-title">
+      <span>OUR PORTFOLIO</span>
+      <h2>Explore Our Sample Projects</h2>
+      <p>Explore our website design concepts and demo previews.</p>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"></div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+
+    <div class="section-title">
+      <span>HOW WE WORK</span>
+      <h2>Our Working Process</h2>
+      <p>A simple process from idea to website.</p>
+    </div>
+
+    <div class="process-grid">
+
+      <div class="process-card">
+        <div class="process-number">01</div>
+        <h3>Discussion</h3>
+        <p>We understand your business, requirements and website goals.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">02</div>
+        <h3>Design</h3>
+        <p>We plan the layout, colours and visual appearance of your website.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">03</div>
+        <h3>Development</h3>
+        <p>We build and test the website for desktop and mobile screens.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">04</div>
+        <h3>Delivery</h3>
+        <p>After approval, we prepare the website for publishing and delivery.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <span>LET'S WORK TOGETHER</span>
+      <h2>Start Your Project With Us</h2>
+      <p>Have a website idea? Send us your enquiry.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-details">
+        <h3>Let's Talk About Your Project.</h3>
+
+        <p>
+          Tell us what kind of website you need. Contact APEXNODE
+          through WhatsApp or email.
+        </p>
+
+        <div class="contact-item">
+          <small>WHATSAPP / PHONE</small>
+          <a href="https://wa.me/918248717028" target="_blank">
+            +91 82487 17028
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <small>EMAIL ADDRESS</small>
+          <a href="mailto:affreen.r.dev456@gmail.com">
+            affreen.r.dev456@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <small>BUSINESS</small>
+          <span>Website Design & Development</span>
+        </div>
+      </div>
+
+      <!-- EMAIL ENQUIRY FORM -->
+      <div class="contact-form">
+
+        <h3>Send Us an Enquiry</h3>
+        <p>Fill in the details below. We will get back to you.</p>
+
+        <form action="https://formsubmit.co/affreen.r.dev456@gmail.com"
+              method="POST">
+
+          <input type="hidden" name="_subject"
+                 value="New APEXNODE Website Enquiry">
+
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_template" value="table">
+
+          <input type="text" name="name"
+                 placeholder="Your Name" required>
+
+          <input type="email" name="email"
+                 placeholder="Your Email Address" required>
+
+          <input type="tel" name="phone"
+                 placeholder="Your Phone Number" required>
+
+          <select name="website_type" required>
+            <option value="">Select Website Type</option>
+            <option>Business Website</option>
+            <option>E-commerce Website</option>
+            <option>Portfolio Website</option>
+            <option>Restaurant Website</option>
+            <option>Landing Page</option>
+            <option>Other</option>
+          </select>
+
+          <textarea name="message"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required></textarea>
+
+          <button type="submit">Send Enquiry →</button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-content">
+    <div class="brand">
+      <div class="logo-circle">
+                <img src="/assets/apexnode-logo.jpeg" alt="APEXNODE">
+      </div>
+      <div class="brand-name">APEX<span>NODE</span></div>
+    </div>
+
+    <p>© 2026 APEXNODE. All Rights Reserved.</p>
+    <p>Building Digital Experiences.</p>
+  </div>
+</footer>
+
+<!-- DEMO PREVIEW MODAL -->
+<div class="demo-modal" id="demoModal">
+
+  <div class="demo-topbar">
+    <strong>APEXNODE | PROJECT PREVIEW</strong>
+    <button class="close-demo" onclick="closeDemo()">✕ Close Demo</button>
+  </div>
+
+  <div class="demo-site" id="demoSite"></div>
+
+</div>
+
+<script>
+
+/* MOBILE MENU */
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
+function closeMenu() {
+  document.getElementById("navLinks").classList.remove("open");
+}
+
+/* PROJECT DATA */
+/* Replace image URLs with your own image URLs if needed. */
+
+const projects = [
+
+{
+  name:"Corporate Website",
+  category:"BUSINESS WEBSITE",
+  desc:"A professional website concept for modern companies.",
+  image:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900",
+  hero:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900",
+    "https://images.unsplash.com/photo-1497366858526-0766cadbe8fa?w=900",
+    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900"
+  ],
+  title:"A Better Way to Do Business.",
+  subtitle:"Professional solutions for ambitious businesses.",
+  services:["Business Consulting","Our Expertise","Professional Support"],
+  descriptions:["Smart solutions designed around your business goals.","Professional services that help your company grow.","Dedicated support for your business journey."],
+  accent:"#b78b52",bg:"#f5f3ef",text:"#242424",card:"#ffffff"
+},
+
+{
+  name:"E-commerce Store",
+  category:"ONLINE STORE",
+  desc:"A stylish online shopping store design concept.",
+  image:"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900",
+  hero:"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900",
+    "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+  ],
+  title:"Discover Your New Style.",
+  subtitle:"Explore collections designed for everyday living.",
+  services:["New Arrivals","Featured Collection","Customer Support"],
+  descriptions:["Discover the latest products and collections.","Find products selected for your lifestyle.","We're here to help with your shopping enquiries."],
+  accent:"#9b6847",bg:"#f8f4ef",text:"#25211e",card:"#ffffff"
+},
+
+{
+  name:"Restaurant Website",
+  category:"FOOD & RESTAURANT",
+  desc:"An elegant website concept for restaurants and cafes.",
+  image:"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900",
+  hero:"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900",
+    "https://images.stockcake.com/public/e/b/1/eb1ba707-d30d-41e7-8d11-784c23808ba6/fresh-ingredients-assembled-stockcake.jpg",
+    "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=900"
+  ],
+  title:"Good Food. Great Moments.",
+  subtitle:"A memorable dining experience starts here.",
+  services:["Our Menu","Special Dishes","Private Dining"],
+  descriptions:["Explore a selection of delicious menu options.","Discover our signature dishes and favourites.","Plan a special dining experience with us."],
+  accent:"#a75c32",bg:"#f7f0e8",text:"#30251e",card:"#ffffff"
+},
+
+{
+  name:"Personal Portfolio",
+  category:"PORTFOLIO WEBSITE",
+  desc:"A clean portfolio design for professionals and creators.",
+  image:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900",
+  hero:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900",
+    "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=900",
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+  ],
+  title:"Ideas Into Digital Experiences.",
+  subtitle:"Creative work. Thoughtful design. Meaningful results.",
+  services:["My Skills","Selected Work","Let's Connect"],
+  descriptions:["Explore the skills and expertise behind my work.","A collection of selected projects and creative ideas.","Have a project in mind? Let's start a conversation."],
+  accent:"#6555c0",bg:"#f5f4fb",text:"#242139",card:"#ffffff"
+},
+
+{
+  name:"Clinic Website",
+  category:"HEALTHCARE",
+  desc:"A clean and welcoming website concept for clinics.",
+  image:"https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900",
+  hero:"https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900",
+    "https://images.unsplash.com/photo-1551076805-e1869033e561?w=900",
+    "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=900"
+  ],
+  title:"Care That Comes First.",
+  subtitle:"A welcoming space focused on patient care.",
+  services:["Our Departments","Our Facilities","Contact Our Team"],
+  descriptions:["Explore the healthcare services available.","Learn more about our clinic facilities.","Reach out to our team for general enquiries."],
+  accent:"#258c89",bg:"#eef8f7",text:"#203b3a",card:"#ffffff"
+},
+
+{
+  name:"Hotel Website",
+  category:"HOSPITALITY",
+  desc:"A premium hotel and resort website design concept.",
+  image:"https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900",
+  hero:"https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900",
+    "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=900",
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=900"
+  ],
+  title:"Escape Into Comfort.",
+  subtitle:"Discover a stay filled with comfort and memorable moments.",
+  services:["Luxury Rooms","Dining Experience","Guest Services"],
+  descriptions:["Explore beautiful rooms designed for relaxation.","Enjoy memorable dining experiences.","Discover services designed around your stay."],
+  accent:"#b18a50",bg:"#f5f0e7",text:"#2e2921",card:"#ffffff"
+},
+
+{
+  name:"Education Website",
+  category:"EDUCATION",
+  desc:"A modern education website design for learning centres.",
+  image:"https://th.bing.com/th/id/OIP._PrsJI-m0t9Tz7gTNeZGmgHaEo?w=295&h=184&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  hero:"https://th.bing.com/th/id/OIP.Rm9wkZzssRaeAZnYN4tP1AHaE7?w=232&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  gallery:[
+    "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900",
+    "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900",
+    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900"
+  ],
+  title:"Learn Today. Lead Tomorrow.",
+  subtitle:"Building knowledge, skills and brighter futures.",
+  services:["Our Courses","Expert Faculty","Student Support"],
+  descriptions:["Discover learning opportunities for every student.","Learn from dedicated and experienced educators.","Get guidance throughout your learning journey."],
+  accent:"#2d69a7",bg:"#f0f5fb",text:"#1e2e40",card:"#ffffff"
+},
+
+{
+  name:"Salon Website",
+  category:"BEAUTY & WELLNESS",
+  desc:"An elegant website concept for beauty and salon brands.",
+  image:"https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900",
+  hero:"https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900",
+    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900",
+    "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900"
+  ],
+  title:"Your Beauty. Your Confidence.",
+  subtitle:"Discover a space dedicated to beauty and self-care.",
+  services:["Hair Styling","Beauty Services","Personal Care"],
+  descriptions:["Explore styles that express your personality.","Discover our range of beauty services.","Enjoy a relaxing and refreshing experience."],
+  accent:"#bd718c",bg:"#fff3f6",text:"#442d36",card:"#ffffff"
+},
+
+{
+  name:"Construction Website",
+  category:"CONSTRUCTION",
+  desc:"A strong corporate website concept for construction brands.",
+  image:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900",
+  hero:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900",
+    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=900",
+    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900"
+  ],
+  title:"Building Beyond Expectations.",
+  subtitle:"Quality, commitment and thoughtful construction.",
+  services:["Residential Projects","Commercial Projects","Project Consultation"],
+  descriptions:["Spaces designed around modern living.","Solutions for commercial development projects.","Discuss your next construction project with us."],
+  accent:"#b87935",bg:"#f5f2ed",text:"#302b25",card:"#ffffff"
+},
+
+{
+  name:"Photography Website",
+  category:"CREATIVE PORTFOLIO",
+  desc:"A visual portfolio concept for photographers and artists.",
+  image:"https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=900",
+  hero:"https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900",
+    "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900",
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900"
+  ],
+  title:"Stories Through The Lens.",
+  subtitle:"Capturing moments, emotions and beautiful details.",
+  services:["Portrait Photography","Events & Weddings","Creative Projects"],
+  descriptions:["Personal portraits captured with creativity.","Preserve special memories through photography.","Explore creative visual storytelling."],
+  accent:"#947b5e",bg:"#f5f2ed",text:"#302b25",card:"#ffffff"
+}
+
+];
+
+/* DISPLAY ALL PROJECTS */
+
+const projectsGrid = document.getElementById("projectsGrid");
+
+projects.forEach((project,index) => {
+
+  const card = document.createElement("div");
+  card.className = "project-card";
+
+  const img = document.createElement("img");
+  img.src = project.image;
+  img.alt = project.name;
+  img.loading = "lazy";
+
+  const imageBox = document.createElement("div");
+  imageBox.className = "project-image";
+  imageBox.appendChild(img);
+
+  const info = document.createElement("div");
+  info.className = "project-info";
+
+  const category = document.createElement("small");
+  category.textContent = project.category;
+
+  const heading = document.createElement("h3");
+  heading.textContent = project.name;
+
+  const description = document.createElement("p");
+  description.textContent = project.desc;
+
+  const button = document.createElement("button");
+  button.className = "demo-btn";
+  button.textContent = "View Demo →";
+  button.addEventListener("click", () => openDemo(index));
+
+  info.append(category,heading,description,button);
+  card.append(imageBox,info);
+  projectsGrid.appendChild(card);
+        
+});
+
+/* OPEN DEMO */
+
+function openDemo(index) {
+
+  const p = projects[index];
+  const modal = document.getElementById("demoModal");
+  const site = document.getElementById("demoSite");
+
+  site.style.setProperty("--demo-accent",p.accent);
+  site.style.setProperty("--demo-bg",p.bg);
+  site.style.setProperty("--demo-text",p.text);
+  site.style.setProperty("--demo-card",p.card);
+
+  const servicesHTML = p.services.map((service,i) => `
+    <div class="demo-service-card">
+      <h3>${service}</h3>
+      <p>${p.descriptions[i]}</p>
+    </div>
+  `).join("");
+
+  const galleryHTML = p.gallery.map(img => `
+    <img src="${img}" alt="Project gallery image" loading="lazy">
+  `).join("");
+
+  site.innerHTML = `
+    <div class="demo-nav">
+      <strong>${p.name}</strong>
+
+      <div class="demo-nav-links">
+        <a href="#demoHome">Home</a>
+        <a href="#demoServices">Services</a>
+        <a href="#demoGallery">Gallery</a>
+        <a href="#demoContact">Contact</a>
+      </div>
+
+      <a class="demo-enquire" href="#demoContact">Enquire Now</a>
+    </div>
+
+    <section class="demo-hero" id="demoHome"
+      style="background-image:url('${p.hero}')">
+
+      <div class="demo-hero-content">
+        <div class="demo-kicker">${p.category}</div>
+        <h1>${p.title}</h1>
+        <p>${p.subtitle}</p>
+        <button class="demo-action"
+          onclick="demoWhatsApp('${p.name}')">
+          Enquire Now →
+        </button>
+      </div>
+    </section>
+
+    <section class="demo-content-section" id="demoServices">
+      <div class="demo-section-title">
+        <h2>What We Offer</h2>
+        <p>Discover our services and what makes us different.</p>
+      </div>
+
+      <div class="demo-services">
+        ${servicesHTML}
+      </div>
+    </section>
+
+    <section class="demo-content-section" id="demoGallery">
+      <div class="demo-section-title">
+        <h2>Our Gallery</h2>
+        <p>A closer look at our work and experiences.</p>
+      </div>
+
+      <div class="demo-gallery">
+        ${galleryHTML}
+      </div>
+    </section>
+
+    <section class="demo-cta" id="demoContact">
+      <h2>Let's Create Something Great.</h2>
+      <p>Get in touch with us to know more.</p>
+      <button onclick="demoWhatsApp('${p.name}')">
+        Contact Us →
+      </button>
+    </section>
+
+    <div class="demo-footer">
+      © ${new Date().getFullYear()} ${p.name}. Sample Website Concept.
+    </div>
+  `;
+
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
+  modal.scrollTop = 0;
+
+}
+
+/* CLOSE DEMO */
+
+function closeDemo() {
+  document.getElementById("demoModal").classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+document.addEventListener("keydown",function(e) {
+  if(e.key === "Escape") closeDemo();
+});
+
+/* DEMO WHATSAPP ENQUIRY */
+
+function demoWhatsApp(name) {
+
+  const msg = "Hi APEXNODE, I viewed the " + name +
+    " sample demo and I would like a similar website for my business.";
+
+  const url = "https://wa.me/918248717028?text=" +
+    encodeURIComponent(msg);
+
+  window.open(url,"_blank");
+
+}
+
+</script>
+
+</body>
+</html>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="section-title" style="text-align:left;margin-bottom:15px;">
+        <span>ABOUT APEXNODE</span>
+      </div>
+
+      <h2>Building Your <span>Digital Future.</span></h2>
+
+      <p>
+        APEXNODE is a website development brand focused on creating
+        attractive, modern and user-friendly websites for businesses
+        and individuals.
+      </p>
+
+      <p>
+        From business websites to online stores and personal portfolios,
+        we help turn your ideas into a professional online experience.
+      </p>
+
+      <div class="about-points">
+        <div class="about-point"><span>✦</span> Modern Designs</div>
+        <div class="about-point"><span>✦</span> Mobile Responsive</div>
+        <div class="about-point"><span>✦</span> User Friendly</div>
+        <div class="about-point"><span>✦</span> Business Focused</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:#0b0d12;">
+  <div class="container">
+
+    <div class="section-title">
+      <span>WHAT WE DO</span>
+      <h2>Our Services</h2>
+      <p>Digital solutions designed for your business.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <h3>Business Websites</h3>
+        <p>Professional websites to showcase your business, services and brand identity.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🛒</div>
+        <h3>E-commerce Websites</h3>
+        <p>Online store designs to display products and help customers enquire or shop.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">👤</div>
+        <h3>Portfolio Websites</h3>
+        <p>Personal portfolio websites to showcase your skills, work and achievements.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🍽️</div>
+        <h3>Restaurant Websites</h3>
+        <p>Beautiful restaurant websites with menus, food galleries and enquiry options.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Landing Pages</h3>
+        <p>Focused landing pages for products, promotions, services and campaigns.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Website Customization</h3>
+        <p>Improve existing websites with better layouts, features and visual design.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="container">
+
+    <div class="section-title">
+      <span>OUR PORTFOLIO</span>
+      <h2>Explore Our Sample Projects</h2>
+      <p>Explore our website design concepts and demo previews.</p>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"></div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+
+    <div class="section-title">
+      <span>HOW WE WORK</span>
+      <h2>Our Working Process</h2>
+      <p>A simple process from idea to website.</p>
+    </div>
+
+    <div class="process-grid">
+
+      <div class="process-card">
+        <div class="process-number">01</div>
+        <h3>Discussion</h3>
+        <p>We understand your business, requirements and website goals.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">02</div>
+        <h3>Design</h3>
+        <p>We plan the layout, colours and visual appearance of your website.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">03</div>
+        <h3>Development</h3>
+        <p>We build and test the website for desktop and mobile screens.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-number">04</div>
+        <h3>Delivery</h3>
+        <p>After approval, we prepare the website for publishing and delivery.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <span>LET'S WORK TOGETHER</span>
+      <h2>Start Your Project With Us</h2>
+      <p>Have a website idea? Send us your enquiry.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-details">
+        <h3>Let's Talk About Your Project.</h3>
+
+        <p>
+          Tell us what kind of website you need. Contact APEXNODE
+          through WhatsApp or email.
+        </p>
+
+        <div class="contact-item">
+          <small>WHATSAPP / PHONE</small>
+          <a href="https://wa.me/918248717028" target="_blank">
+            +91 82487 17028
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <small>EMAIL ADDRESS</small>
+          <a href="mailto:affreen.r.dev456@gmail.com">
+            affreen.r.dev456@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <small>BUSINESS</small>
+          <span>Website Design & Development</span>
+        </div>
+      </div>
+
+      <!-- EMAIL ENQUIRY FORM -->
+      <div class="contact-form">
+
+        <h3>Send Us an Enquiry</h3>
+        <p>Fill in the details below. We will get back to you.</p>
+
+        <form action="https://formsubmit.co/affreen.r.dev456@gmail.com"
+              method="POST">
+
+          <input type="hidden" name="_subject"
+                 value="New APEXNODE Website Enquiry">
+
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_template" value="table">
+
+          <input type="text" name="name"
+                 placeholder="Your Name" required>
+
+          <input type="email" name="email"
+                 placeholder="Your Email Address" required>
+
+          <input type="tel" name="phone"
+                 placeholder="Your Phone Number" required>
+
+          <select name="website_type" required>
+            <option value="">Select Website Type</option>
+            <option>Business Website</option>
+            <option>E-commerce Website</option>
+            <option>Portfolio Website</option>
+            <option>Restaurant Website</option>
+            <option>Landing Page</option>
+            <option>Other</option>
+          </select>
+
+          <textarea name="message"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required></textarea>
+
+          <button type="submit">Send Enquiry →</button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-content">
+    <div class="brand">
+      <div class="logo-circle">
+        <img src="file:///D:/logo.png.jpeg" alt="APEXNODE">
+      </div>
+      <div class="brand-name">APEX<span>NODE</span></div>
+    </div>
+
+    <p>© 2026 APEXNODE. All Rights Reserved.</p>
+    <p>Building Digital Experiences.</p>
+  </div>
+</footer>
+
+<!-- DEMO PREVIEW MODAL -->
+<div class="demo-modal" id="demoModal">
+
+  <div class="demo-topbar">
+    <strong>APEXNODE | PROJECT PREVIEW</strong>
+    <button class="close-demo" onclick="closeDemo()">✕ Close Demo</button>
+  </div>
+
+  <div class="demo-site" id="demoSite"></div>
+
+</div>
+
+<script>
+
+/* MOBILE MENU */
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
+function closeMenu() {
+  document.getElementById("navLinks").classList.remove("open");
+}
+
+/* PROJECT DATA */
+/* Replace image URLs with your own image URLs if needed. */
+
+const projects = [
+
+{
+  name:"Corporate Website",
+  category:"BUSINESS WEBSITE",
+  desc:"A professional website concept for modern companies.",
+  image:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900",
+  hero:"https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900",
+    "https://images.unsplash.com/photo-1497366858526-0766cadbe8fa?w=900",
+    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900"
+  ],
+  title:"A Better Way to Do Business.",
+  subtitle:"Professional solutions for ambitious businesses.",
+  services:["Business Consulting","Our Expertise","Professional Support"],
+  descriptions:["Smart solutions designed around your business goals.","Professional services that help your company grow.","Dedicated support for your business journey."],
+  accent:"#b78b52",bg:"#f5f3ef",text:"#242424",card:"#ffffff"
+},
+
+{
+  name:"E-commerce Store",
+  category:"ONLINE STORE",
+  desc:"A stylish online shopping store design concept.",
+  image:"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900",
+  hero:"https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900",
+    "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+  ],
+  title:"Discover Your New Style.",
+  subtitle:"Explore collections designed for everyday living.",
+  services:["New Arrivals","Featured Collection","Customer Support"],
+  descriptions:["Discover the latest products and collections.","Find products selected for your lifestyle.","We're here to help with your shopping enquiries."],
+  accent:"#9b6847",bg:"#f8f4ef",text:"#25211e",card:"#ffffff"
+},
+
+{
+  name:"Restaurant Website",
+  category:"FOOD & RESTAURANT",
+  desc:"An elegant website concept for restaurants and cafes.",
+  image:"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900",
+  hero:"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900",
+    "https://images.stockcake.com/public/e/b/1/eb1ba707-d30d-41e7-8d11-784c23808ba6/fresh-ingredients-assembled-stockcake.jpg",
+    "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=900"
+  ],
+  title:"Good Food. Great Moments.",
+  subtitle:"A memorable dining experience starts here.",
+  services:["Our Menu","Special Dishes","Private Dining"],
+  descriptions:["Explore a selection of delicious menu options.","Discover our signature dishes and favourites.","Plan a special dining experience with us."],
+  accent:"#a75c32",bg:"#f7f0e8",text:"#30251e",card:"#ffffff"
+},
+
+{
+  name:"Personal Portfolio",
+  category:"PORTFOLIO WEBSITE",
+  desc:"A clean portfolio design for professionals and creators.",
+  image:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900",
+  hero:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900",
+    "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=900",
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+  ],
+  title:"Ideas Into Digital Experiences.",
+  subtitle:"Creative work. Thoughtful design. Meaningful results.",
+  services:["My Skills","Selected Work","Let's Connect"],
+  descriptions:["Explore the skills and expertise behind my work.","A collection of selected projects and creative ideas.","Have a project in mind? Let's start a conversation."],
+  accent:"#6555c0",bg:"#f5f4fb",text:"#242139",card:"#ffffff"
+},
+
+{
+  name:"Clinic Website",
+  category:"HEALTHCARE",
+  desc:"A clean and welcoming website concept for clinics.",
+  image:"https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900",
+  hero:"https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900",
+    "https://images.unsplash.com/photo-1551076805-e1869033e561?w=900",
+    "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=900"
+  ],
+  title:"Care That Comes First.",
+  subtitle:"A welcoming space focused on patient care.",
+  services:["Our Departments","Our Facilities","Contact Our Team"],
+  descriptions:["Explore the healthcare services available.","Learn more about our clinic facilities.","Reach out to our team for general enquiries."],
+  accent:"#258c89",bg:"#eef8f7",text:"#203b3a",card:"#ffffff"
+},
+
+{
+  name:"Hotel Website",
+  category:"HOSPITALITY",
+  desc:"A premium hotel and resort website design concept.",
+  image:"https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900",
+  hero:"https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900",
+    "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=900",
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=900"
+  ],
+  title:"Escape Into Comfort.",
+  subtitle:"Discover a stay filled with comfort and memorable moments.",
+  services:["Luxury Rooms","Dining Experience","Guest Services"],
+  descriptions:["Explore beautiful rooms designed for relaxation.","Enjoy memorable dining experiences.","Discover services designed around your stay."],
+  accent:"#b18a50",bg:"#f5f0e7",text:"#2e2921",card:"#ffffff"
+},
+
+{
+  name:"Education Website",
+  category:"EDUCATION",
+  desc:"A modern education website design for learning centres.",
+  image:"https://th.bing.com/th/id/OIP._PrsJI-m0t9Tz7gTNeZGmgHaEo?w=295&h=184&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  hero:"https://th.bing.com/th/id/OIP.Rm9wkZzssRaeAZnYN4tP1AHaE7?w=232&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  gallery:[
+    "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900",
+    "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900",
+    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900"
+  ],
+  title:"Learn Today. Lead Tomorrow.",
+  subtitle:"Building knowledge, skills and brighter futures.",
+  services:["Our Courses","Expert Faculty","Student Support"],
+  descriptions:["Discover learning opportunities for every student.","Learn from dedicated and experienced educators.","Get guidance throughout your learning journey."],
+  accent:"#2d69a7",bg:"#f0f5fb",text:"#1e2e40",card:"#ffffff"
+},
+
+{
+  name:"Salon Website",
+  category:"BEAUTY & WELLNESS",
+  desc:"An elegant website concept for beauty and salon brands.",
+  image:"https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900",
+  hero:"https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900",
+    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900",
+    "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900"
+  ],
+  title:"Your Beauty. Your Confidence.",
+  subtitle:"Discover a space dedicated to beauty and self-care.",
+  services:["Hair Styling","Beauty Services","Personal Care"],
+  descriptions:["Explore styles that express your personality.","Discover our range of beauty services.","Enjoy a relaxing and refreshing experience."],
+  accent:"#bd718c",bg:"#fff3f6",text:"#442d36",card:"#ffffff"
+},
+
+{
+  name:"Construction Website",
+  category:"CONSTRUCTION",
+  desc:"A strong corporate website concept for construction brands.",
+  image:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900",
+  hero:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900",
+    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=900",
+    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900"
+  ],
+  title:"Building Beyond Expectations.",
+  subtitle:"Quality, commitment and thoughtful construction.",
+  services:["Residential Projects","Commercial Projects","Project Consultation"],
+  descriptions:["Spaces designed around modern living.","Solutions for commercial development projects.","Discuss your next construction project with us."],
+  accent:"#b87935",bg:"#f5f2ed",text:"#302b25",card:"#ffffff"
+},
+
+{
+  name:"Photography Website",
+  category:"CREATIVE PORTFOLIO",
+  desc:"A visual portfolio concept for photographers and artists.",
+  image:"https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=900",
+  hero:"https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1800",
+  gallery:[
+    "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=900",
+    "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900",
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900"
+  ],
+  title:"Stories Through The Lens.",
+  subtitle:"Capturing moments, emotions and beautiful details.",
+  services:["Portrait Photography","Events & Weddings","Creative Projects"],
+  descriptions:["Personal portraits captured with creativity.","Preserve special memories through photography.","Explore creative visual storytelling."],
+  accent:"#947b5e",bg:"#f5f2ed",text:"#302b25",card:"#ffffff"
+}
+
+];
+
+/* DISPLAY ALL PROJECTS */
+
+const projectsGrid = document.getElementById("projectsGrid");
+
+projects.forEach((project,index) => {
+
+  const card = document.createElement("div");
+  card.className = "project-card";
+
+  const img = document.createElement("img");
+  img.src = project.image;
+  img.alt = project.name;
+  img.loading = "lazy";
+
+  const imageBox = document.createElement("div");
+  imageBox.className = "project-image";
+  imageBox.appendChild(img);
+
+  const info = document.createElement("div");
+  info.className = "project-info";
+
+  const category = document.createElement("small");
+  category.textContent = project.category;
+
+  const heading = document.createElement("h3");
+  heading.textContent = project.name;
+
+  const description = document.createElement("p");
+  description.textContent = project.desc;
+
+  const button = document.createElement("button");
+  button.className = "demo-btn";
+  button.textContent = "View Demo →";
+  button.addEventListener("click", () => openDemo(index));
+
+  info.append(category,heading,description,button);
+  card.append(imageBox,info);
+  projectsGrid.appendChild(card);
+
+});
+
+/* OPEN DEMO */
+
+function openDemo(index) {
+
+  const p = projects[index];
+  const modal = document.getElementById("demoModal");
+  const site = document.getElementById("demoSite");
+
+  site.style.setProperty("--demo-accent",p.accent);
+  site.style.setProperty("--demo-bg",p.bg);
+  site.style.setProperty("--demo-text",p.text);
+  site.style.setProperty("--demo-card",p.card);
+
+  const servicesHTML = p.services.map((service,i) => `
+    <div class="demo-service-card">
+      <h3>${service}</h3>
+      <p>${p.descriptions[i]}</p>
+    </div>
+  `).join("");
+
+  const galleryHTML = p.gallery.map(img => `
+    <img src="${img}" alt="Project gallery image" loading="lazy">
+  `).join("");
+
+  site.innerHTML = `
+    <div class="demo-nav">
+      <strong>${p.name}</strong>
+
+      <div class="demo-nav-links">
+        <a href="#demoHome">Home</a>
+        <a href="#demoServices">Services</a>
+        <a href="#demoGallery">Gallery</a>
+        <a href="#demoContact">Contact</a>
+      </div>
+
+      <a class="demo-enquire" href="#demoContact">Enquire Now</a>
+    </div>
+
+    <section class="demo-hero" id="demoHome"
+      style="background-image:url('${p.hero}')">
+
+      <div class="demo-hero-content">
+        <div class="demo-kicker">${p.category}</div>
+        <h1>${p.title}</h1>
+        <p>${p.subtitle}</p>
+        <button class="demo-action"
+          onclick="demoWhatsApp('${p.name}')">
+          Enquire Now →
+        </button>
+      </div>
+    </section>
+
+    <section class="demo-content-section" id="demoServices">
+      <div class="demo-section-title">
+        <h2>What We Offer</h2>
+        <p>Discover our services and what makes us different.</p>
+      </div>
+
+      <div class="demo-services">
+        ${servicesHTML}
+      </div>
+    </section>
+
+    <section class="demo-content-section" id="demoGallery">
+      <div class="demo-section-title">
+        <h2>Our Gallery</h2>
+        <p>A closer look at our work and experiences.</p>
+      </div>
+
+      <div class="demo-gallery">
+        ${galleryHTML}
+      </div>
+    </section>
+
+    <section class="demo-cta" id="demoContact">
+      <h2>Let's Create Something Great.</h2>
+      <p>Get in touch with us to know more.</p>
+      <button onclick="demoWhatsApp('${p.name}')">
+        Contact Us →
+      </button>
+    </section>
+
+    <div class="demo-footer">
+      © ${new Date().getFullYear()} ${p.name}. Sample Website Concept.
+    </div>
+  `;
+
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
+  modal.scrollTop = 0;
+
+}
+
+/* CLOSE DEMO */
+
+function closeDemo() {
+  document.getElementById("demoModal").classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+document.addEventListener("keydown",function(e) {
+  if(e.key === "Escape") closeDemo();
+});
+
+/* DEMO WHATSAPP ENQUIRY */
+
+function demoWhatsApp(name) {
+
+  const msg = "Hi APEXNODE, I viewed the " + name +
+    " sample demo and I would like a similar website for my business.";
+
+  const url = "https://wa.me/918248717028?text=" +
+    encodeURIComponent(msg);
+
+  window.open(url,"_blank");
+
+}
+
+</script>
+
+</body>
+</html>
       </div>
       <div class="brand-name">APEX<span>NODE</span></div>
     </a>
